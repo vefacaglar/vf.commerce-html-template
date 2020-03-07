@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    position: relative;
+    background-color: #cecece;
+    min-height: 70px;
+}
+
+.mainNavContainer{
+    width: 1024px;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.navigationMenu{
+    float: left;
+    padding-left: 120px;
+}
+
+.navItem{
+    float: left;
+    padding: 10px 40px 10px 40px;
+    margin: 5px;
+    border: 1px solid #000
+}
+
+.headerContainer{
+    background-color :#a1a1a1;
+    height: 40px;
+    position: relative;
+}
+
+.headerContainer > .headerLogo{
+    margin: auto;
+    padding: 10px;
+    width: 1024px;
+}
+
+.headerContainer > .headerLogo > img {
+    max-height: 90px;
+    position: absolute;
+    z-index: 1000;
+}
+
+.cardContainer{
+    float: right;
+}
+
+.cardArea{
+    border: 1px solid black;
+    padding: 10px 20px 10px 20px;
+    margin: 5px;
+}
