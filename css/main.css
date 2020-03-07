@@ -28,7 +28,7 @@ body{
 }
 
 .headerContainer{
-    background-color :#a1a1a1;
+    background-color :#6b6b6b;
     height: 40px;
     position: relative;
 }
@@ -56,11 +56,16 @@ body{
 }
 
 .carousel{
-    height: 500px;
+    height: 600px;
     background-color: #a1a1a1;
 }
 
 .carousel-item{
-    height: 500px;
+    height: 600px;
     background-size: cover !important
+}
+
+.mainProducts{
+    min-height: 600px;
+    background-color: #a0a0a0;
 }
