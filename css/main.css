@@ -21,6 +21,7 @@ a:hover {
     position: relative;
     background-color: #cecece;
     min-height: 70px;
+    overflow: hidden;
 }
 
 .mainNavContainer {
@@ -160,7 +161,11 @@ footer a:hover {
     }
 
     .navItem{
-        padding: 10px 25px 10px 25px;
+        padding: 10px 0 10px 0;
+    }
+
+    .navItem>span{
+        margin: 0 15px 0 15px;
     }
 }
 
