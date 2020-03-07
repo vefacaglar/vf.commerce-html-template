@@ -36,9 +36,28 @@ a:hover {
 
 .navItem {
     float: left;
-    padding: 10px 40px 10px 40px;
+    /* padding: 10px 40px 10px 40px; */
+    padding: 10px 0 10px 0;
     margin: 5px;
-    border: 1px solid #000
+    border: 1px solid #000;
+}
+
+.navItem>span{
+    margin: 0 40px 0 40px
+}
+
+.navItem:hover .navSubMenu{
+    display: block;
+}
+
+.navSubMenu{
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    min-height: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 10;
+    display: none;
 }
 
 .headerContainer {
@@ -161,6 +180,10 @@ footer a:hover {
     
     .carousel-item {
         height: 400px;
+    }
+
+    .hideOnMobile{
+        display: none;
     }
 }
 
