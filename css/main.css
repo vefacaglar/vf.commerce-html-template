@@ -3,7 +3,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-.navbar {
+.mainNavbar {
     position: relative;
     background-color: #cecece;
     min-height: 70px;
